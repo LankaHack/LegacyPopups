@@ -1,0 +1,12 @@
+{
+  "name": "legacy-popups",
+  "private": true,
+  "scripts": {
+    "test": "npm run test:js",
+    "test:js": "vitest run --environment jsdom tests/js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "vitest": "^3.2.4"
+  }
+}
